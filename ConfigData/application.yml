@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-secondary:8882/eureka/,http://eureka-primary:8881/eureka/
+
+---
+spring:
+  profiles: profile1
+words: barco, libro, voto, asiento, mochila, partición
